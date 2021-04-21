@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test"
+  description: "microservicer"
+  annotations:
+    github.com/project-slug: microservicer/docs
+    backstage.io/techdocs-ref: url:https://github.com/microservicer/docs
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "Tasseri"
